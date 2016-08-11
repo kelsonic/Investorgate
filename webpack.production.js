@@ -8,6 +8,7 @@ module.exports = function (PATH, PORT) {
             'babel-polyfill',
             // Add our application's script below
             './src/styles/main.less',
+            './src/styles/materialize.less',
             './src/js/index.jsx'
         ],
         module:  {
