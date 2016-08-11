@@ -1,6 +1,8 @@
-# Investor Portfolio
+# Investorgate
 
 This is an app built with React, Redux, and Jest for investors who want to trade stocks on public stock exchanges.
+
+[![Investorgate Homepage](readme-image.png)](https://www.youtube.com/embed/_sdDhlRAaE0)
 
 ## Getting Started Locally
 

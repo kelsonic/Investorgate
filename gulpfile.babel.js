@@ -15,7 +15,6 @@ const PORT = process.env.PORT || 3000;
 
 const paths = {
     HTML:        'src/*.html',
-    ICO:         'src/favicon.ico',
     JS_MAIN:     'src/js/index.js',
     STYLES:      'src/styles/main.less',
     TMP:         '.tmp',
@@ -41,9 +40,6 @@ gulp.task('clean', () => {
 gulp.task('copy', () => {
     gulp.src(paths.HTML)
         .pipe(replace('<!-- inject:webpack-dev-server.js -->', `<script src="http://localhost:${PORT}/webpack-dev-server.js"></script>`))
-        .pipe(gulp.dest(paths.TMP));
-
-    gulp.src('favicon.ico')
         .pipe(gulp.dest(paths.TMP));
 });
 
