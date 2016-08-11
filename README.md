@@ -20,7 +20,7 @@ npm start
 
 ## Usage
 
-View the website in production at awebsitetocome.com.
+View the website in production at [investorgate.trade](http://investorgate.trade).
 
 ## User Stories
 
