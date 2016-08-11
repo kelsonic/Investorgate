@@ -1,5 +1,5 @@
-var webpack = require('webpack');
-var path    = require('path');
+const webpack = require('webpack');
+const path    = require('path');
 
 module.exports = function (PATH, PORT) {
     return {
@@ -39,7 +39,12 @@ module.exports = function (PATH, PORT) {
                 }
             }),
             new webpack.optimize.DedupePlugin(),
-            new webpack.optimize.UglifyJsPlugin()
+            new webpack.optimize.UglifyJsPlugin({
+                minimize: true,
+                compress: {
+                    warnings: false
+                }
+            })
         ]
     }
 };
