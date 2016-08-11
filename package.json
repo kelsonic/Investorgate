@@ -1,5 +1,5 @@
 {
-  "name": "investor-portal",
+  "name": "investorgate",
   "version": "0.0.1",
   "description": "A React/Redux app to buy/sell stocks.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kelsonic/BenzingaApp.git"
+    "url": "git+https://github.com/kelsonic/Investorgate.git"
   },
   "keywords": [
     "React",
@@ -23,9 +23,9 @@
   "author": "Kelsonic <www.kelsonic.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kelsonic/BenzingaApp/issues"
+    "url": "https://github.com/kelsonic/Investorgate/issues"
   },
-  "homepage": "https://github.com/kelsonic/BenzingaApp#readme",
+  "homepage": "https://github.com/kelsonic/Investorgate#readme",
   "dependencies": {
     "es6-promise": "^3.0.2",
     "highcharts": "^4.2.6",
