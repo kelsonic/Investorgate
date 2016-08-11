@@ -2,7 +2,11 @@
 
 This is an app built with React, Redux, and Jest for investors who want to trade stocks on public stock exchanges.
 
-[![Investorgate Homepage](readme-image.png)](https://www.youtube.com/embed/_sdDhlRAaE0)
+![Investorgate Homepage](readme-image.png)
+
+### View Investorgate
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_sdDhlRAaE0" frameborder="0" allowfullscreen></iframe>
 
 ## Getting Started Locally
 
