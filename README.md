@@ -5,9 +5,11 @@ This is an app built with React, Redux, and Jest for investors who want to trade
 ## Getting Started Locally
 
 ```
-git clone
+git clone git@github.com:kelsonic/Investorgate.git
 
-npm install
+cd Investorgate
+
+npm install (may take awhile...)
 
 npm start
 ```
