@@ -44,9 +44,7 @@
     "redux-devtools": "^3.0.1",
     "redux-logger": "^2.4.0",
     "redux-thunk": "^1.0.3",
-    "whatwg-fetch": "^0.11.0"
-  },
-  "devDependencies": {
+    "whatwg-fetch": "^0.11.0",
     "autoprefixer-loader": "^3.2.0",
     "babel-jest": "^14.1.0",
     "babel-loader": "^6.2.1",
