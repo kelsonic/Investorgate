@@ -1,0 +1,181 @@
+/*app.js*/
+html, body {
+  background-color: #212731;
+  font-family: 'proxima-nova', 'helvetica', 'arial', sans-serif;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-weight: 300;
+}
+
+.header-styles {
+  background-color: #373F49;
+  color: white;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pageTitle {
+  font-size: 50px;
+}
+
+.left-side {
+  background-color: #28313c;
+  padding: 15px 20px 15px 20px;
+  min-height: 230px;
+  border: 3px solid #212731;
+}
+
+.right-side {
+  background-color: #28313c;
+  padding: 15px 20px 15px 20px;
+  min-height: 230px;
+  border: 3px solid #212731;
+}
+
+
+/*search_bar.js*/
+.finder-title {
+  font-size: 23px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.input-bar {
+  text-align: center;
+  border: 3px solid #373F49;
+  padding: 3px 3px 3px 3px;
+  margin-bottom: 8px;
+  background-color: #28313c;
+  font-size: 16px;
+  cursor: text;
+  line-height: 36px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 993px) {
+  .input-bar.stock{
+    width: 50%;
+    margin-right: 20px;
+  }
+}
+
+.input-bar:focus {
+  color: white !important;
+  outline: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lookup-btn {
+  margin-top: 15px;
+  margin-right: 5px;
+  background-color: #1693e6;
+  height: 3rem;
+  line-height: 3rem;
+  border: none;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  text-align: middle;
+}
+
+.lookup-btn:hover {
+  background-color: #1682e6;
+}
+
+.lookup-btn:visited {
+  background-color: #1682e6;
+}
+
+/*cash.js*/
+.cash-amount {
+  font-size: 23px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.cash-green {
+  color: #8bc34a;
+}
+
+/*searched_stock.js*/
+.searched-stock {
+  border-radius: 3%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #47566a !important;
+  text-align: center;
+}
+
+.stock-name {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.symbol {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/*stock-actions.js*/
+.stock-actions {
+  border-radius: 5%;
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #47566a !important;
+  text-align: center; 
+  vertical-align: center;
+  border: 2px solid #28313c;
+  min-height: 130px;
+}
+
+.buy-btn {
+  background-color: #8bc34a !important;
+}
+
+.sell-btn {
+  background-color: #fb8c00 !important;
+}
+
+.btn {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 1rem !important;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/*stock-list.js*/
+
+.no-stocks {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: #47566a;
+}
+
+th {
+  font-size: 18px;
+}
