@@ -51,16 +51,23 @@ export default class StockChart extends Component {
     // Build the chart
     const config = {
         chart: {
+            backgroundColor: '#47566a',
+            fontFamily: 'proxima-nova',
             plotBackgroundColor: null,
+            marginTop: 30,
+            borderRadius: '20px',
             plotBorderWidth: null,
             plotShadow: false,
             type: 'pie'
         },
         title: {
-            text: 'Your Current Portfolio'
+            text: 'Your Current Portfolio',
+            style: {
+                color: '#fff',
+            }
         },
         tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
         plotOptions: {
             pie: {
@@ -70,7 +77,10 @@ export default class StockChart extends Component {
                     enabled: true,
                     format: '<b>{point.name}</b>: {point.percentage:.1f} %',
                     style: {
-                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        color: '#fff',
+                        fontFamily: 'proxima-nova',
+                        "fontSize": "14px",
+                        textShadow: false
                     },
                     connectorColor: 'silver'
                 }

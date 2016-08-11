@@ -28,7 +28,7 @@ export default class App extends Component {
                     <div className="col s12">
                         <div className="header-styles">
 
-                            <h1 className="pageTitle">Eurika</h1>
+                            <h1 className="pageTitle">Investorgate</h1>
                         </div>
 
                         <div className="col l4 m12 s12 left-side">
